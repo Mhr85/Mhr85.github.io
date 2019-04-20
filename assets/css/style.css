@@ -1,0 +1,143 @@
+/*
+header-background:#fff;
+header-title-name-background: #4aaaa5;
+background-color: #eeeeee, #4aaaa5;
+button-hover: #BBFFFB;
+color: #777777;
+footer-color: #666666;
+border: #cccccc;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/* HEADING */
+#heading {
+    color: #4aaaa5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.title {
+    margin: 0;
+    padding: 1% 5% 0 5%;
+}
+
+/* NAVBAR */
+/* .nav-item {
+    padding: 0 18px;
+} */
+
+.nav-links {
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+/* MIDDLE CONTAINER */
+
+.full {
+    background-color: #eee;
+    border-top: 0.5px solid #777;
+    padding: 7% 5%;
+}
+
+.jumbotron {
+    background-color: #fff;
+    border-radius: 0;
+    color: #777;
+    font-family: 'Montserrat-light', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.jumbotron-heading {
+    color: #4aaaa5;
+    font-family: 'Montserrat-regular', sans-serif;
+    font-weight: regular;
+}
+
+.jumbotron img {
+    margin-right: 20px;
+    border: none;
+}
+
+.card{
+    border: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #777;
+    border-top: 8px solid #4aaaa5;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+}
+
+
+/* PORTFOLIO */
+
+
+
+.card-main-div {
+    padding: 0;
+    margin: 0;
+}
+
+.tile {
+    text-align: center;
+}
+
+.portfolio-images {
+    border-radius: 1rem;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+
+/* PORTFOLIO & CONTACT  */
+  .btn-color {
+    background-color: #00adb5;
+  }
+
+  .card-img-top {
+      margin: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .jumbotron-heading{
+        text-align: center;
+    }
+
+    .jumbotron img{
+        width: 500px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .jumbotron-heading{
+        text-align: center;
+    }
+
+    .jumbotron img{
+        width: 800px;
+    }
+  }
+
+  /* @media only screen and (min-width: 1000px) {
+    .jumbotron-heading{
+        text-align: center;
+    }
+  } */
