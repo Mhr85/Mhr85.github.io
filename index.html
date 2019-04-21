@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio | Mihir Patel</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon_package_v0.16/android-chrome-512x512.png">
+    <title>Portfolio | Mihir Patel </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu" rel="stylesheet">
@@ -16,7 +17,8 @@
 
 <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<!-- CSS -->
+
+    <!-- CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
 <!-- BOOTSTRAP JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -26,10 +28,10 @@
 <body>
 <!-- TOP CONTAINER -->
 <div class="container-fluid title">
-    <nav class="navbar navbar-expand-lg navbar-light nav-links">
+    <nav class="navbar navbar-expand-lg navbar-light nav-links" id="navbar">
         <a class="navbar-brand animated zoomInRight" id="heading" href="index.html">Mihir Patel</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="fas fa-align-justify" id="nav-toggler"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -46,6 +48,15 @@
             </ul>
         </div>
     </nav>
+
+    <div class="container" id="title-intro">
+        <h1 class="animated fadeInUpBig" id="intro-name">Hello,  I'm Mihir</h1>
+        <h2 class="animated fadeInUpBig" id="intro-title">A Programmer</h2>
+        <button class="btn btn-outline animated fadeInUpBig" id="intro-contact">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Contact Me
+        </button>
+    </div>
 </div>
 <!-- END OF TOP CONTAINER  -->
 
@@ -54,14 +65,122 @@
     <div class="jumbotron">
         <h1 class="jumbotron-heading animated zoomInRight">About Me</h1>
         <hr class="my-4">
-        <img class="fa-pull-left img-thumbnail" id="img-modify" src="assets/images/200px vector.png" alt="">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <img class="fa-align-center img-thumbnail" id="img-modify" src="assets/images/200px vector.png" alt="">
+        <p>I'm a Web Developer from New Jersey, currently enrolled in full-stack web development bootcamp at Rutgers University.</p>
+    </div>
+</div>
+
+
+<div class="container-fluid full-skills">
+    <div class="jumbotron-skills">
+        <h1 class="jumbotron-heading animated zoomInRight">Skills</h1>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col skill-box">
+                <i class="fab fa-html5 fa-4x skills"></i>
+                <h4>HTML</h4>
+            </div>
+            <div class="col skill-box">
+                <i class="fab fa-css3-alt fa-4x skills"></i>
+                <h4>CSS</h4>
+            </div>
+            <div class="col skill-box">
+                <i class="fab fa-js fa-4x skills"></i>
+                <h4>javaScript</h4>
+            </div>
+            <div class="col skill-box">
+                <i class="fas fa-dollar-sign fa-4x skills"></i>
+                <h4>jQuery</h4>
+            </div>
+            <div class="col skill-box">
+                <i class="fab fa-node fa-js fa-4x skills"></i>
+                <h4>node.js</h4>
+            </div>
+        </div>
     </div>
 </div>
 <!-- END OF MIDDLE CONTAINER -->
 
+<div class="container-fluid full">
+    <div class="jumbotron">
+        <h1 class="jumbotron-heading animated zoomInRight">Portfolio</h1>
+        <hr class="my-4">
+        <div class="row">
+
+
+            <div class="portfolio-column col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Chihuahua</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">Free</h2>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-column col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Chihuahua</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">Free</h2>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-column col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Chihuahua</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">Free</h2>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END OF MIDDLE CONTAINER -->
+
+<div class="container-fluid full">
+        <div class="jumbotron">
+            <h1 class="jumbotron-heading animated zoomInRight">Contact</h1>
+            <hr class="my-4">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputName1">Name</label>
+                  <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+
+               <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-color">Submit</button>
+            </form>
+        </div>
+    </div>
 <!-- BOTTOM CONTAINER -->
 <footer>
     <div class="container-fluid">
@@ -69,6 +188,6 @@
     </div>
 </footer>
 <!-- END OF BOTTOM CONTAINER -->
-
+<script src="assets/javascript/index.js"></script>
 </body>
 </html>

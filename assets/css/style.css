@@ -18,34 +18,86 @@ font-family: 'Montserrat', sans-serif;
 
 /* HEADING */
 #heading {
-    color: #4aaaa5;
+    color: #d2c8c8;
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
+#heading:hover {
+    color: #a3816a;
+}
+
 .title {
+    background-image: url("/assets/images/title-img3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
     margin: 0;
     padding: 1% 5% 0 5%;
+
 }
 
 /* NAVBAR */
 /* .nav-item {
     padding: 0 18px;
 } */
-
+.navbar-nav a{
+    color: #d2c8c8 !important;
+}
+.navbar-nav a:hover{
+    color: #a3816a !important;
+}
 .nav-links {
+
     font-family: 'Montserrat-light', sans-serif;
     font-size: 1.2rem;
     padding: 0;
 }
+#nav-toggler {
+    color: #d2c8c8 !important;
+}
 
+#title-intro {
+    margin: 200px auto;
+    text-align: center;
+    line-height: 6;
+}
+
+#intro-name {
+    color: #d2c8c8 !important;
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 5.625rem;
+}
+#intro-title {
+    color: #d2c8c8 !important;
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 2.5rem;
+}
+#intro-contact {
+    border: solid 2px;
+    color: #d2c8c8 !important;
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+}
+#intro-contact:hover {
+    border-color:  #a3816a !important;
+    background-color: #a3816a !important;
+}
 /* MIDDLE CONTAINER */
 
 .full {
-    background-color: #eee;
-    border-top: 0.5px solid #777;
-    padding: 7% 5%;
+    background-color: #fff;
+    /* border-top: 0.5px solid #777; */
+    padding: 0 5%;
+    margin: 0;
+}
+
+.full-skills {
+    background-color: #d2c8c8;
+    padding: 2% 5% 5% 5%;
+    margin: 0;
 }
 
 .jumbotron {
@@ -53,23 +105,48 @@ font-family: 'Montserrat', sans-serif;
     border-radius: 0;
     color: #777;
     font-family: 'Montserrat-light', sans-serif;
-    text-align: justify;
+    padding: 2%;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.jumbotron-skills {
+    background-color:  #d2c8c8;
+    border-radius: 0;
+    color: #777;
+    font-family: 'Montserrat-light', sans-serif;
+    text-align: center;
     text-justify: inter-word;
 }
 
 .jumbotron-heading {
-    color: #4aaaa5;
+    color: #a3816a;
     font-family: 'Montserrat-regular', sans-serif;
     font-weight: regular;
+    text-align: center;
 }
 
 .jumbotron img {
-    margin-right: 20px;
     border: none;
+    margin: 20px auto;
+    width: 300px;
 }
 
 .card{
     border: none;
+}
+
+.dotted-hr {
+    border-top: 8px dotted #d2c8c8;
+    border-width: 8px 0px 0px 0px;
+    width: 8%;
+}
+
+/* SKILLS */
+
+.skills {
+    margin: 5rem;
+    color: #a3816a;
 }
 
 /* FOOTER */
@@ -109,7 +186,15 @@ footer {
 
 /* PORTFOLIO & CONTACT  */
   .btn-color {
-    background-color: #00adb5;
+    border: solid 2px;
+    color: #d2c8c8 !important;
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+  }
+
+  .btn-color:hover {
+    border-color:  #a3816a !important;
+    background-color: #a3816a !important;
   }
 
   .card-img-top {
@@ -120,9 +205,25 @@ footer {
     .jumbotron-heading{
         text-align: center;
     }
-
     .jumbotron img{
         width: 500px;
+    }
+    #heading {
+        font-size: 2.0rem;
+        font-weight: bold;
+    }
+    #intro-name {
+        font-size: 3.625rem;
+    }
+    .title {
+        height: 650px;
+    }
+    #title-intro {
+        margin: 100px auto;
+        line-height: 6;
+    }
+    .skills {
+        margin: 1rem;
     }
   }
 
