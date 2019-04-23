@@ -37,13 +37,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                    <a class="nav-link" href="#about-me">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="#portfolio-id">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-id">Contact</a>
                 </li>
             </ul>
         </div>
@@ -52,29 +55,29 @@
     <div class="container" id="title-intro">
         <h1 class="animated fadeInUpBig" id="intro-name">Hello,  I'm Mihir</h1>
         <h2 class="animated fadeInUpBig" id="intro-title">A Programmer</h2>
-        <button class="btn btn-outline animated fadeInUpBig intro-contact">
+        <button class="btn btn-outline animated fadeInUpBig intro-contact button">
             <span class="spinner-grow spinner-grow-sm"></span>
-            <a class="animated fadeInUpBig all-links" href="/assets/files/Resume_MihirPatel.pdf" download>Resume</a>
-
+            <a class="animated fadeInUpBig all-links text" href="/assets/files/Resume_MihirPatel.pdf" download>Resume</a>
         </button>
     </div>
 </div>
 <!-- END OF TOP CONTAINER  -->
 
 <!-- MIDDLE CONTAINER -->
-<div class="container-fluid full">
+<div class="container-fluid full" id="about-me">
     <div class="jumbotron">
-        <h1 class="jumbotron-heading animated zoomInRight">About Me</h1>
+        <h1 class="jumbotron-heading">About Me</h1>
         <hr class="my-4">
         <img class="fa-align-center img-thumbnail" id="img-modify" src="assets/images/200px vector.png" alt="">
         <p>I'm a Web Developer from New Jersey, currently enrolled in full-stack web development bootcamp at Rutgers University.</p>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
 </div>
 
 
-<div class="container-fluid full-skills">
+<div class="container-fluid full-skills" id="skills">
     <div class="jumbotron-skills">
-        <h1 class="jumbotron-heading animated zoomInRight">Skills</h1>
+        <h1 class="jumbotron-heading">Skills</h1>
         <hr class="my-4">
         <div class="row">
             <div class="col skill-box">
@@ -102,9 +105,9 @@
 </div>
 <!-- END OF MIDDLE CONTAINER -->
 
-<div class="container-fluid full">
+<div class="container-fluid full" id="portfolio-id">
     <div class="jumbotron">
-        <h1 class="jumbotron-heading animated zoomInRight">Portfolio</h1>
+        <h1 class="jumbotron-heading">Portfolio</h1>
         <hr class="my-4">
         <div class="row">
 
@@ -176,9 +179,9 @@
 </div>
 <!-- END OF MIDDLE CONTAINER -->
 
-<div class="container-fluid full-contact">
+<div class="container-fluid full-contact" id="contact-id">
         <div class="jumbotron-contact">
-            <h1 class="jumbotron-heading animated zoomInRight">Contact</h1>
+            <h1 class="jumbotron-heading">Contact</h1>
             <hr class="my-4">
             <form>
                 <div class="form-group">
@@ -204,8 +207,8 @@
 <footer>
     <div class="container-fluid">
         <p> &copy; Copyright 2019 | Mihir Patel</p>
-        <a href="https://github.com/Mhr85" target="blank"><i class="fab fa-github all-portfolio-links"></i></a>
-        <a href="www.linkedin.com/in/mihir-patel-596aa262" target="blank"><i class="fab fa-linkedin all-portfolio-links"></i></a>
+        <a href="https://github.com/Mhr85" target="blank"><i class="fab fa-github fa-2x all-portfolio-links"></i></a>
+        <a href="www.linkedin.com/in/mihir-patel-596aa262" target="blank"><i class="fab fa-linkedin fa-2x all-portfolio-links"></i></a>
     </div>
 </footer>
 <!-- END OF BOTTOM CONTAINER -->

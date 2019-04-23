@@ -191,13 +191,16 @@ font-family: 'Montserrat', sans-serif;
     color: #a3816a;
 }
 
+
+
+
 /* FOOTER */
 
 footer {
     background-color: #eee;
     border-top: 8px solid #a3816a;
     color: #a3816a;
-    padding: 2%;
+    padding: 3%;
     text-align: center;
 }
 
@@ -256,6 +259,30 @@ footer {
       margin: 0;
   }
 
+
+  /* SCROLL TO TOP BUTTON */
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #a3816a; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+  #myBtn:hover {
+    background-color: #0a065d; /* Add a dark-grey background on hover */
+  }
+
+
+
   @media only screen and (max-width: 600px) {
     .jumbotron-heading{
         text-align: center;
@@ -271,7 +298,7 @@ footer {
         font-size: 3.625rem;
     }
     .title {
-        height: 650px;
+        height: 700px;
     }
     #title-intro {
         margin: 100px auto;
